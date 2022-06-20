@@ -5,15 +5,15 @@
 --logoFont: 'Gemunu Libre', sans-serif;
 
 --mainColorDark: #1D3218;
---mainColor: #6CA95E;
+--mainColor: #5cac4a;
 --offWhite: #FCFFFC;
 --accentColor: #EAF940;
 --transparentColor: #ff000000;
 
---lightGradient: linear-gradient(0deg, rgb(102, 224, 75) 40%, rgb(93, 188, 71) 100%);
---darkGradient: linear-gradient(0deg, rgb(92, 185, 69) 10%, rgb(71, 160, 48) 70%);
+--lightGradient: linear-gradient(0deg, rgb(130, 222, 109) 10%, rgb(68, 195, 40) 100%);
+--darkGradient: linear-gradient(0deg, rgb(51, 131, 31) 10%, rgb(78, 193, 49) 70%);
 
 --standardShadow: 2px 2px 10px 0px rgba(21, 255, 0, 0.2);
 
 }
-/*# sourceMappingURL=variables.css.map */
+

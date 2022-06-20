@@ -6,7 +6,7 @@
 @import url(variables.css);
 
 * {
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
 }
 
 body {
@@ -27,10 +27,74 @@ p, ul, ol, li {
 }
 /*# sourceMappingURL=App.css.map */
 
-.container {
+.hero-container {
   background: url(../img/hero-section-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* cards */
+#faq__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faq__card {
+  width: 150px;
+  height: 180px;
+  border-radius: 6px;    
+  background: var(--darkGradient);
+  padding: 10px;
+}
+
+.faq__icon {
+  position: relative;
+  background: var(--lightGradient);
+  border-radius: 100px;
+  width: 90px;
+  height: 90px;
+  padding: 16px;
+  top: -40px;
+  margin: 0 auto;
+}
+
+.faq__card__description {
+  position: relative;
+  text-align: center;
+  top: -20px;
+}
+
+.faq__card__description h3 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.faq__card__description p {
+  font-size: 14px;
+  font-weight: thin;
+}
+
+#section__benefits {
+  background: url(../img/benefits-section-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section__benefits__content {
+  background-color: rgba(4, 37, 8, 0.5);
+  backdrop-filter: blur(5px);
+  padding: 3rem;
+  border-radius: 20px;
 }
