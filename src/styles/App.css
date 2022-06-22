@@ -6,7 +6,7 @@
 @import url(variables.css);
 
 * {
-  /* border: 1px solid yellowgreen; */
+  border: 1px solid yellowgreen;
 }
 
 body {
@@ -25,14 +25,15 @@ h1,h2,h3,h4,h5,h6 {
 p, ul, ol, li {
   font-family: var(--paragraphFont);
 }
-/*# sourceMappingURL=App.css.map */
+
+/* main stylesheet */
 
 .hero-container {
   background: url(../img/hero-section-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1200px;
 }
 
 .hero-copy {
@@ -89,7 +90,7 @@ p, ul, ol, li {
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1200px;
 }
 
 #section__benefits__content {
