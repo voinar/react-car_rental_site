@@ -1,0 +1,198 @@
+{
+    "fleet": [
+      { "id": 1,
+        "title": "Find me on Twitter",
+        "link": "https://twitter.com/kendalmintcode",
+        "type": "City",
+        "imageUrl": "https://placeimg.com/300/300/any"
+      },
+      {
+        "id": 2,
+        "title": "Welcome to Ark Labs",
+        "link": "https://ark-labs.co.uk",
+        "type": "Sedan",
+        "imageUrl": "https://placeimg.com/300/300/animals"
+      },
+      {
+        "id": 3,
+        "title": "Some sort of third title",
+        "link": "https://twitter.com/kendalmintcode",
+        "type": "SUV",
+        "imageUrl": "https://placeimg.com/300/300/architecture"
+      },
+      {
+        "id": 4,
+        "title": "Super item number the last",
+        "link": "https://twitter.com/kendalmintcode",
+        "type": "Minivan",
+        "imageUrl": "https://placeimg.com/300/300/tech"
+      },
+      {
+        "id": 5,
+        "title": "Super item number the last",
+        "link": "https://twitter.com/kendalmintcode",
+        "type": "Sports",
+        "imageUrl": "https://placeimg.com/300/300/tech"
+      },
+      {
+        "id": 6,
+        "title": "Super item number the last",
+        "link": "https://twitter.com/kendalmintcode",
+        "type": "Classic",
+        "imageUrl": "https://placeimg.com/300/300/tech"
+      }
+    ],
+    "agencies": [
+      {
+        "id": 1,
+        "city": "Aberdeen"
+      },
+      {
+        "id": 2,
+        "city": "Belfast"
+      },
+      {
+        "id": 3,
+        "city": "Birmingham"
+      },
+      {
+        "id": 4,
+        "city": "Brighton"
+      },
+      {
+        "id": 5,
+        "city": "Cardiff"
+      },
+      {
+        "id": 6,
+        "city": "Edinburgh"
+      },
+      {
+        "id": 7,
+        "city": "Glasgow"
+      },
+      {
+        "id": 8,
+        "city": "Liverpool"
+      },
+      {
+        "id": 9,
+        "city": "London"
+      },
+      {
+        "id": 10,
+        "city": "Manchester"
+      },
+      {
+        "id": 11,
+        "city": "Norwich"
+      },      {
+        "id": 12,
+        "city": "Portsmouth"
+      },
+      {
+        "id": 13,
+        "city": "Sheffield"
+      },
+      {
+        "id": 14,
+        "city": "Southampton"
+      },
+      {
+        "id": 15,
+        "city": "Stoke-on-Trent"
+      },
+      {
+        "id": 16,
+        "city": "Swansea"
+      }
+    ],
+
+    "airports": [
+      {
+        "id": 1,
+        "city": "Aberdeen"
+      },
+      {
+        "id": 2,
+        "city": "Belfast"
+      },
+      {
+        "id": 3,
+        "city": "Birmingham"
+      },
+      {
+        "id": 4,
+        "city": "Brighton"
+      },
+      {
+        "id": 5,
+        "city": "Cardiff"
+      },
+      {
+        "id": 6,
+        "city": "Edinburgh"
+      },
+      {
+        "id": 7,
+        "city": "Glasgow"
+      },
+      {
+        "id": 8,
+        "city": "Liverpool"
+      },
+      {
+        "id": 9,
+        "city": "London"
+      },
+      {
+        "id": 10,
+        "city": "Manchester"
+      },
+      {
+        "id": 11,
+        "city": "Norwich"
+      },      {
+        "id": 12,
+        "city": "Portsmouth"
+      },
+      {
+        "id": 13,
+        "city": "Sheffield"
+      },
+      {
+        "id": 14,
+        "city": "Southampton"
+      },
+      {
+        "id": 15,
+        "city": "Stoke-on-Trent"
+      },
+      {
+        "id": 16,
+        "city": "Swansea"
+      }
+    ],
+
+    "news": [
+      {
+        "id": 1,
+        "title": "Introducing off-road rentals",
+        "paragraph": "Rentacars just expanded off the beaten path! Check our brand new offer featuring 4x4 vehicles.",
+        "image": "../img/news-cards/card-thumbnail-1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Black Friday deals",
+        "paragraph": "Check our Black Friday deals. Don’t need a rental on Black Friday? Get a Giftcard and use it later in the next 6 months!",
+        "image": "../img/news-cards/card-thumbnail-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Safe Driving Academy",
+        "paragraph": "Enroll for the Winter Edition of Rentacars Safe Driving Academy. World-class instructors will teach you how to handle the car in extreme conditions. Register now for 10% off!",
+        "image": "../img/news-cards/card-thumbnail-3.jpg"
+      }
+    ]
+}
+

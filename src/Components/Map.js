@@ -1,83 +1,30 @@
 import map from "../img/map-agencies.jpg";
-// import 'flowbite-react'
+import { Menu, Transition } from '@headlessui/react'
+import MapAgencies from './MapAgencies'
+import MapAirports from './MapAirports'
 
 const Map = () => {
   return (
-    <section className="flex pt-20 pb-20 mx-auto max-w-[1000px] bg-[#fafdf9] text-green-900">
-      <div className="w-1/2">
-        <img src={map}></img>
+    <section className="flex pt-20 pb-20 mx-auto max-w-[1200px] bg-[#e7fae2] text-green-900">
+      <div className="w-3/5 pl-6 rounded-4">
+        <img className="rounded-2xl" src={map}></img>
       </div>
 
-      <div className="w-1/2 pb-20">
-        <div>
+      <div className="w-2/5 mx-auto px-4">
+        <div className="pb-4">
           <h2 className="text-center text-4xl font-bold pb-1">Our agencies</h2>
-          <p className="text-center font-thin">We're all over UK</p>
+          <p className="text-center font-medium">We're all over UK</p>
         </div>
-        <div className="flex flex-col">
-          <span>Agency</span>
-          <button
-            id="dropdownDefault"
-            data-dropdown-toggle="dropdown"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            type="button"
-          >
-            Dropdown button{" "}
-            <svg
-              class="w-4 h-4 ml-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M19 9l-7 7-7-7"
-              ></path>
-            </svg>
-          </button>
-          <div
-            id="dropdown"
-            class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700"
-          >
-            <ul
-              class="py-1 text-sm text-gray-700 dark:text-gray-200"
-              aria-labelledby="dropdownDefault"
-            >
-              <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Dashboard
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Settings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Earnings
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                >
-                  Sign out
-                </a>
-              </li>
-            </ul>
+        <div className="flex flex-col bg-green-400 rounded-lg p-4 m-4 mb-8">
+          <span className="text-xl font-semibold text-[#fafdf9] mb-4">Agency</span>
+          <div>
+          <MapAgencies />
+          </div>
+        </div>
+        <div className="flex flex-col bg-green-600 rounded-lg p-4 m-4 mb-8">
+          <span className="text-xl font-semibold text-[#fafdf9] mb-4">Airport</span>
+          <div>
+          <MapAirports />
           </div>
         </div>
       </div>

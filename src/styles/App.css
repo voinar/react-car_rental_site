@@ -6,7 +6,7 @@
 @import url(variables.css);
 
 * {
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
 }
 
 body {
@@ -32,8 +32,7 @@ p, ul, ol, li {
   background: url(../img/hero-section-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 .hero-copy {
@@ -87,10 +86,9 @@ p, ul, ol, li {
 
 #section__benefits {
   background: url(../img/benefits-section-background.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1200px;
+  background-size: cover;
 }
 
 #section__benefits__content {
@@ -98,4 +96,24 @@ p, ul, ol, li {
   backdrop-filter: blur(5px);
   padding: 3rem;
   border-radius: 20px;
+}
+
+#section__news {
+  background: url(../img/news-section-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section__news__card--copy {
+  background-color: rgba(8, 12, 8, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+#footer {
+  background: url(../img/footer-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: fit; */
 }

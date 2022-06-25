@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import data from "../data/fleet.json";
+import data from "../data/data.json";
 
 import arrowLeft from "../img/arrow-left.svg";
 import arrowRight from "../img/arrow-right.svg";
@@ -75,9 +75,9 @@ const Carousel = () => {
           ref={carousel}
           className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0 ml-8 mr-8"
         >
-          {data.resources.map((resource, index) => {
+          {data.fleet.map((resource, index) => {
             return (
-              <div   className="h-[300px]">
+              <div className="h-[300px]">
                 <div
                   key={index}
                   className="carousel-item text-center relative w-60 h-60 snap-start"

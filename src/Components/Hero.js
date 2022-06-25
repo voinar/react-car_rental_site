@@ -3,7 +3,7 @@ import logoImg from "../img/logo.svg";
 
 const Hero = () => {    
   return (
-    <div className="hero-container max-w-[100%] h-[500px]">
+    <div className="hero-container w-[1200px] h-[500px] mx-auto">
     <div className="mx-auto max-w-[1000px]">
       <nav id="navbar" className="flex pt-8 pb-8">
         <div className="logo w-2/6 flex">
@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="text-6xl font-extrabold">
             <h1>Find the best car rental deals</h1>
           </div>
-          <div className="text-xl font-thin">
+          <div className="text-xl font-medium">
             <p className="pt-2">Book online & get 10% off!</p>
           </div>
         </div>
