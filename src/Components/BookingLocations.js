@@ -3,15 +3,15 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import database from "../data/data.json";
 
-export default function MapAgencies() {
+export default function BookingLocations() {
   return (
     <div>
       <Menu as="div" className="relative inline-block text-left z-10">
         <div>
-          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-white bg-opacity-90 px-4 py-2 text-sm font-medium text-green-900 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-            Choose from the list
+          <Menu.Button className="inline-flex w-full justify-center rounded-md bg-white bg-opacity-90 px-6 py-4 text-sm font-medium text-green-900 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+            Select city or airport
             <ChevronDownIcon
-              className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
+              className="ml-2 -mr-1 h-5 w-5 text-green-800 hover:text-violet-100"
               aria-hidden="true"
             />
           </Menu.Button>

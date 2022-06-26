@@ -5,12 +5,12 @@ import MapAirports from './MapAirports'
 
 const Map = () => {
   return (
-    <section className="flex pt-20 pb-20 mx-auto max-w-[1200px] bg-[#e7fae2] text-green-900">
+    <section className="flex pt-20 pb-20 max-w-[1200px] bg-[#e7fae2] text-green-900">
       <div className="w-3/5 pl-6 rounded-4">
         <img className="rounded-2xl" src={map}></img>
       </div>
 
-      <div className="w-2/5 mx-auto px-4">
+      <div className="w-2/5 px-4">
         <div className="pb-4">
           <h2 className="text-center text-4xl font-bold pb-1">Our agencies</h2>
           <p className="text-center font-medium">We're all over UK</p>

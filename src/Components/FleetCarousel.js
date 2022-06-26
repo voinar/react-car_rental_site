@@ -75,36 +75,39 @@ const Carousel = () => {
           ref={carousel}
           className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0 ml-8 mr-8"
         >
-          {data.fleet.map((resource, index) => {
+          {data.fleet.map((fleetImg, index) => {
             return (
               <div className="h-[300px]">
                 <div
                   key={index}
-                  className="carousel-item text-center relative w-60 h-60 snap-start"
+                  className="carousel-item text-center relative w-60 h-60 snap-start mr-6"
                 >
                   <a
-                    href={resource.link}
-                    className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                    href={fleetImg.link}
+                    className="h-full w-full aspect-square block bg-origin-padding bg-center bg-contain bg-no-repeat z-0 mb-6 rounded-xl"
                     style={{
-                      backgroundImage: `url(${resource.imageUrl || ""})`,
+                      backgroundImage: `url(${fleetImg.imageUrl || ""})`,
                     }}
                   >
-                    <img
-                      src={resource.imageUrl || ""}
-                      alt={resource.title}
+                    <img 
+                      src={fleetImg.imageUrl || ""}
+                      alt={fleetImg.title}
                       className="w-auto aspect-square hidden"
                     />
                   </a>
                   <div>
-                  <a
-                    href={resource.link}
-                    className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-green-800/50 z-10"
-                  ></a>
+                    <a
+                      href={fleetImg.link}
+                      className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-green-800/20 z-3"
+                    ></a>
                   </div>
-                  <a href={resource.link} className="rounded-[10px] bg-[#f7fbf6] font-bold text-[#1D3218] outline outline-2 outline-[#1D3218] px-8 py-3 cursor-pointer">
-                  {resource.type}</a>
+                  <a
+                    href={fleetImg.link}
+                    className="rounded-[10px] bg-[hsl(108,92%,91%)] font-bold text-[#1D3218] outline outline-2 outline-[#1D3218] px-12 py-3 cursor-pointer"
+                  >
+                    {fleetImg.type}
+                  </a>
                 </div>
-
               </div>
             );
           })}

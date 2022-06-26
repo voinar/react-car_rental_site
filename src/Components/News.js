@@ -1,8 +1,8 @@
 import newsData from "../data/data.json";
 
-import CardThumbnail1 from "../img/news-cards/card-thumbnail-1.jpg";
-import CardThumbnail2 from "../img/news-cards/card-thumbnail-2.jpg";
-import CardThumbnail3 from "../img/news-cards/card-thumbnail-3.jpg";
+// import CardThumbnail1 from "../img/news-cards/card-thumbnail-1.jpg";
+// import CardThumbnail2 from "../img/news-cards/card-thumbnail-2.jpg";
+// import CardThumbnail3 from "../img/news-cards/card-thumbnail-3.jpg";
 
 const News = () => {
   return (
@@ -16,8 +16,9 @@ const News = () => {
             <div className="section__news__card--top">
               <img
                 className="rounded-tl-md rounded-tr-md"
-                // src={newsItem.image}
-                src={require("../img/news-cards/card-thumbnail-1.jpg")}
+                src={newsItem.image}
+                // src={require("../img/news-cards/card-thumbnail-1.jpg")}
+                // src={"../news-cards/card-thumbnail-1.jpg"}
                 // src={require(newsItem.image)}
               />
             </div>

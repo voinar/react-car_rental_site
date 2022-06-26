@@ -2,44 +2,44 @@
     "fleet": [
       { "id": 1,
         "title": "Find me on Twitter",
-        "link": "https://twitter.com/kendalmintcode",
+        "link": "#",
         "type": "City",
-        "imageUrl": "https://placeimg.com/300/300/any"
+        "imageUrl": "../fleet/fleet-city.jpg"
       },
       {
         "id": 2,
         "title": "Welcome to Ark Labs",
-        "link": "https://ark-labs.co.uk",
+        "link": "#",
         "type": "Sedan",
-        "imageUrl": "https://placeimg.com/300/300/animals"
+        "imageUrl": "../fleet/fleet-sedan.jpg"
       },
       {
         "id": 3,
         "title": "Some sort of third title",
-        "link": "https://twitter.com/kendalmintcode",
+        "link": "#",
         "type": "SUV",
-        "imageUrl": "https://placeimg.com/300/300/architecture"
+        "imageUrl": "../fleet/fleet-suv.jpg"
       },
       {
         "id": 4,
         "title": "Super item number the last",
-        "link": "https://twitter.com/kendalmintcode",
+        "link": "#",
         "type": "Minivan",
-        "imageUrl": "https://placeimg.com/300/300/tech"
+        "imageUrl": "../fleet/fleet-minivan.jpg"
       },
       {
         "id": 5,
         "title": "Super item number the last",
-        "link": "https://twitter.com/kendalmintcode",
+        "link": "#",
         "type": "Sports",
-        "imageUrl": "https://placeimg.com/300/300/tech"
+        "imageUrl": "../fleet/fleet-sports.jpg"
       },
       {
         "id": 6,
         "title": "Super item number the last",
-        "link": "https://twitter.com/kendalmintcode",
+        "link": "#",
         "type": "Classic",
-        "imageUrl": "https://placeimg.com/300/300/tech"
+        "imageUrl": "../fleet/fleet-classic.jpg"
       }
     ],
     "agencies": [
@@ -179,19 +179,19 @@
         "id": 1,
         "title": "Introducing off-road rentals",
         "paragraph": "Rentacars just expanded off the beaten path! Check our brand new offer featuring 4x4 vehicles.",
-        "image": "../img/news-cards/card-thumbnail-1.jpg"
+        "image": "../news-cards/card-thumbnail-1.jpg"
       },
       {
         "id": 2,
         "title": "Black Friday deals",
         "paragraph": "Check our Black Friday deals. Don’t need a rental on Black Friday? Get a Giftcard and use it later in the next 6 months!",
-        "image": "../img/news-cards/card-thumbnail-2.jpg"
+        "image": "../news-cards/card-thumbnail-2.jpg"
       },
       {
         "id": 3,
         "title": "Safe Driving Academy",
         "paragraph": "Enroll for the Winter Edition of Rentacars Safe Driving Academy. World-class instructors will teach you how to handle the car in extreme conditions. Register now for 10% off!",
-        "image": "../img/news-cards/card-thumbnail-3.jpg"
+        "image": "../news-cards/card-thumbnail-3.jpg"
       }
     ]
 }
