@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Calendar } from 'react-date-range';
 
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
@@ -6,24 +7,13 @@ import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
 
 class BookingDates extends Component {
-  handleSelect(ranges){
-    console.log(ranges);
-    // {
-    //   selection: {
-    //     startDate: [native Date Object],
-    //     endDate: [native Date Object],
-    //   }
-    // }
+  handleSelect(date){
+    console.log(date); // native Date object
   }
   render(){
-    const selectionRange = {
-      startDate: new Date(),
-      endDate: new Date(),
-      key: 'selection',
-    }
     return (
-      <DateRangePicker
-        ranges={[selectionRange]}
+      <Calendar
+        date={new Date()}
         onChange={this.handleSelect}
       />
     )

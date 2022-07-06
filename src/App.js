@@ -6,6 +6,7 @@ import Benefits from "./Components/Benefits";
 import Fleet from "./Components/Fleet";
 import Map from "./Components/Map";
 import News from "./Components/News";
+import Form from "./Components/Form";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Fleet />
         <Map />
         <News />
+        <Form />
         <Footer />
       </div>
     </>
