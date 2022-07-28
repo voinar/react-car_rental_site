@@ -1,11 +1,15 @@
 # Rentacar - Car Rental Site
 
 ## A Single Page Application project for my portfolio
-* Designed in figma
+* Designed in Figma
 * Frontend in React
+* Hosted on Netlify
 
 ## Live site: https://rentacar-car-rental-site.netlify.app/ (work in progress)
 
-<img src="https://user-images.githubusercontent.com/38013623/181492960-87d87ecb-f305-4067-9821-bbf640da504b.png" width="700">
+More info about this design: https://indragon.eu/en/case-studies/car-rental/
 
-Credits: Based on code by Adrian Hajdin: https://github.com/adrianhajdin/project_syncfusion_dashboard
+Design preview:
+<img src="https://user-images.githubusercontent.com/38013623/181493293-3a8478fb-6b9a-42c4-83ea-54d8638e66ca.jpg" width="700">
+
+
